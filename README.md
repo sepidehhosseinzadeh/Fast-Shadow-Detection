@@ -1,2 +1,2 @@
 # Shadow-Detection
-Paper: https://arxiv.org/abs/1709.09283
+Please cite the paper https://arxiv.org/abs/1709.09283.
