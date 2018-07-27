@@ -15,9 +15,6 @@ Code: http://aqua.cs.uiuc.edu/site/projects/shadow.html
 7- skimage
 8- Python’s basic libraries (pickle, sys, os, urllib, gzip, cPickle, h5py, math, time, pdb)
 
-# Note: The probability maps produced independently.
-
-
 # How to run the code:
 python2 main_fast_shadow_detection.py OR
 python3 run main_fast_shadow_detection_p3.py
