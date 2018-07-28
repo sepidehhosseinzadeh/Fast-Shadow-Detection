@@ -1,5 +1,5 @@
 # Fast-Shadow-Detection
-This code is for the paper "Fast Shadow Detection from a Single Image Using a Patched Convolutional Neural Network", IROS 2018: https://arxiv.org/abs/1709.09283.
+This code is for the paper S Hosseinzadeh, etc. "Fast Shadow Detection from a Single Image Using a Patched Convolutional Neural Network", Proceedings of the 2018 IEEE/IROS 2018: https://arxiv.org/abs/1709.09283.
 
 # Generating the probability map
 Using paper http://dhoiem.cs.illinois.edu/publications/pami12_shadow.pdf
