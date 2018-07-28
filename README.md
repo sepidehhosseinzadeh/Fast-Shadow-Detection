@@ -33,7 +33,9 @@ Python libraries:
 
 Run commad:
 
-python2 main_fast_shadow_detection.py OR
+python2 main_fast_shadow_detection.py 
+
+OR
 
 python3 main_fast_shadow_detection_p3.py
 
