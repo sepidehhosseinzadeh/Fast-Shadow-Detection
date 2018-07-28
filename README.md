@@ -16,5 +16,6 @@ Code: http://aqua.cs.uiuc.edu/site/projects/shadow.html
 8- Python’s basic libraries (pickle, sys, os, urllib, gzip, cPickle, h5py, math, time, pdb)
 
 # How to run the code:
+Run commad:
 python2 main_fast_shadow_detection.py OR
-python3 run main_fast_shadow_detection_p3.py
+python3 main_fast_shadow_detection_p3.py
