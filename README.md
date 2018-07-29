@@ -4,7 +4,7 @@ This code is for the paper S Hosseinzadeh, etc. "Fast Shadow Detection from a Si
 
 https://arxiv.org/abs/1709.09283
 
-# Generating the probability map
+# Generating the probability map images
 
 Using paper http://dhoiem.cs.illinois.edu/publications/pami12_shadow.pdf
 
@@ -38,4 +38,15 @@ python2 main_fast_shadow_detection.py
 OR
 
 python3 main_fast_shadow_detection_p3.py
+
+# Notes: 
+
+TrainImgeFolder: Training Images
+
+TrainMaskFolder: Training Masks (Ground Truth)
+
+TrainFCNFolder: Probability map images
+
+Likewise for testing images…
+
 
