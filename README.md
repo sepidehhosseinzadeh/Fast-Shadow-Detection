@@ -41,6 +41,8 @@ python3 main_fast_shadow_detection_p3.py
 
 # Notes: 
 
+Build folders "data_cache" and "prediction_output_v1" for data training file and output files.
+
 TrainImgeFolder: Training Images
 
 TrainMaskFolder: Training Masks (Ground Truth)
@@ -49,4 +51,13 @@ TrainFCNFolder: Probability map images
 
 Likewise for testing images…
 
+# Using GPU:
 
+Content in ~/.theanorc:
+[global]
+
+floatX = float32
+
+[nvcc]
+
+fastmath = True
