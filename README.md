@@ -51,7 +51,7 @@ TrainFCNFolder: Probability map images
 
 Likewise for testing images…
 
-The Mask files should have 1 dimension.
+The Mask files should have 1 dimension and should be binary.
 
 # Using GPU:
 
