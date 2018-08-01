@@ -54,6 +54,7 @@ Likewise for testing images…
 # Using GPU:
 
 Content in ~/.theanorc:
+
 [global]
 
 floatX = float32
