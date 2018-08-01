@@ -41,7 +41,7 @@ python3 main_fast_shadow_detection_p3.py
 
 # Notes: 
 
-Build folders "data_cache" and "prediction_output_v1" for data training file and output files.
+Build folders "data_cache" and "prediction_output_v1" for data training/testing output files, and output prediction result files.
 
 TrainImgeFolder: Training Images
 
@@ -50,6 +50,8 @@ TrainMaskFolder: Training Masks (Ground Truth)
 TrainFCNFolder: Probability map images
 
 Likewise for testing images…
+
+The Mask files should have 1 dimension.
 
 # Using GPU:
 
