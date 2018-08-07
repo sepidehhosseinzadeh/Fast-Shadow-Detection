@@ -31,13 +31,9 @@ Python libraries:
 
 # How to run the code:
 
-Run commad:
+python2.7: run main_fast_shadow_detection.py 
 
-python2 main_fast_shadow_detection.py 
-
-OR
-
-python3 main_fast_shadow_detection_p3.py
+python3: run main_fast_shadow_detection_p3.py
 
 # Notes: 
 
