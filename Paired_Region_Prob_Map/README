@@ -1,0 +1,58 @@
+This package contains the code for 
+"Single-Image Shadow Detection and Removal using Paired Regions"
+by Ruiqi Guo, Qieyun Dai and Derek Hoiem,
+University of Illinois at Urbana-Champaign, CVPR 2011, CO, Springs
+
+LICENSE
+###########################################################################
+
+Copyright (C) 2011 Ruiqi Guo, Qieyun Dai
+University of Illinois at Urbana-Champaign
+
+This program is free software; you can redistribute it and/or modify it
+under the terms of the GNU General Public License as published by the
+Free Software Foundation; either version 2 of the License, or (at your
+option) any later version.
+
+This program is distributed in the hope that it will be useful but
+WITHOUT WARRANTY; without even the implied warranty of MERCHANTABILITY
+or FITNESS FOR A PARTICULAR PUPROSE.  See the GNU General Public License
+
+You should have received a copy of the GNU General Public License along
+with this program; if not, write to the Free Software Foundation, Inc.,
+59 Temple Place, Suite 330, Boston, MA 02111-1307 USA
+Details of GPL License available in GNU_GPL_License.txt at base of this
+source tree.
+
+This software is only available for non-commercial use.  Contact Ruiqi Guo 
+(guo29@illinois.edu) with questions regarding commercial licensing.
+
+Installation
+###########################################################################
+This code is tested with MATLAB 2009b on Linux x86_64
+While the majority of our code is in matlab, this package contain codes
+that need to be compiled natively.
+If you find it not working, please go to the authors' page to find one that
+works for your platform.
+
+1. Meanshift code:
+http://coewww.rutgers.edu/riul/research/code/EDISON/index.html
+2. Tom Briggs's mex wrapper for svm light:
+http://sourceforge.net/projects/mex-svm/
+3. A toolbox that includes graphcuts solving by Mark Schmidt and Kevin Murphy
+http://www.cs.ubc.ca/~schmidtm/Software/UGM.html
+
+Included ones are compiled and tested using Matlab Version 7.9.0.529 (R2009b)
+
+Usage
+###########################################################################
+See deshadow_driver.m for a demo of detection and removal
+
+Note: You may need to deal with gamma correction.
+For most digital cameras, gamma correction is done automatically.
+http://en.wikipedia.org/wiki/Gamma_correction
+
+We prefer that the image are captured in raw format and linearly transformed
+from raw format.
+If this is not done, please set 'opt.linearize' to 1 in the code, which
+converts sRGB images to linear intensity.
