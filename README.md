@@ -6,9 +6,9 @@ https://arxiv.org/abs/1709.09283
 
 # Generating the probability map images
 
-Using paper http://dhoiem.cs.illinois.edu/publications/pami12_shadow.pdf
+Run Paired_Region_Prob_Map/deshadow_driver.m by MATLAB
 
-Code: http://aqua.cs.uiuc.edu/site/projects/shadow.html
+Reference paper http://dhoiem.cs.illinois.edu/publications/pami12_shadow.pdf
 
 # Dependencies:
 1- nolearn
