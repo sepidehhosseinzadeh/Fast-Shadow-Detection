@@ -8,7 +8,7 @@ https://arxiv.org/abs/1709.09283
 
 These images are used as image-level prior that are defined in line 44 of main_fast_shadow_detection.py. 
 
-Run Paired_Region_Prob_Map/deshadow_driver.m by MATLAB
+Install Paired_Region_Prob_Map using README in the folder. Run Paired_Region_Prob_Map/deshadow_driver.m by MATLAB
 
 Reference paper http://dhoiem.cs.illinois.edu/publications/pami12_shadow.pdf
 
