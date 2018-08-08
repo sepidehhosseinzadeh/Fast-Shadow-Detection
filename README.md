@@ -4,7 +4,9 @@ This code is for the paper S Hosseinzadeh, etc. "Fast Shadow Detection from a Si
 
 https://arxiv.org/abs/1709.09283
 
-# Generating the probability map images
+# Generating The Shadow Prior Map Images
+
+These images are used as image-level prior that are defined in line 44 of main_fast_shadow_detection.py. 
 
 Run Paired_Region_Prob_Map/deshadow_driver.m by MATLAB
 
@@ -29,7 +31,7 @@ Python libraries:
 
 8- Python’s basic libraries (pickle, sys, os, urllib, gzip, cPickle, h5py, math, time, pdb)
 
-# How to run the code:
+# How To Run The Code:
 
 python2.7: run main_fast_shadow_detection.py 
 
