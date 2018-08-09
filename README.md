@@ -43,11 +43,11 @@ TrainImgeFolder: Training Images
 
 TrainMaskFolder: Training Masks (Ground Truth)
 
-TrainFCNFolder: Probability map images
+TrainFCNFolder: Shadow Prior Map Images
 
 Likewise for testing images…
 
-The Mask files should have 1 dimension and should be binary.
+The Mask and Shadow Prior files should have 1 dimension, and Mask files also should be binary.
 
 # Using GPU:
 
