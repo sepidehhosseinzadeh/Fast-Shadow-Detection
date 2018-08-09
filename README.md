@@ -1,8 +1,6 @@
 # Fast-Shadow-Detection
 
-This code is for the paper S Hosseinzadeh, etc. "Fast Shadow Detection from a Single Image Using a Patched Convolutional Neural Network", Proceedings of the IEEE/IROS 2018
-
-https://arxiv.org/abs/1709.09283
+This code is for the paper: S Hosseinzadeh, etc. "Fast Shadow Detection from a Single Image Using a Patched Convolutional Neural Network", Proceedings of the IEEE/IROS 2018, https://arxiv.org/abs/1709.09283
 
 # Generating The Shadow Prior Map Images
 
