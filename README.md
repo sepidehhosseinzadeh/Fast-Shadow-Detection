@@ -2,7 +2,7 @@
 
 This code is for the paper: S Hosseinzadeh, etc. "Fast Shadow Detection from a Single Image Using a Patched Convolutional Neural Network", Proceedings of the IEEE/IROS 2018, https://arxiv.org/abs/1709.09283
 
-![GitHub Logo](/images/logo.png)
+![GitHub Logo](structure.png)
 
 ## Generating The Shadow Prior Map Images
 
@@ -37,7 +37,7 @@ python2.7: run main_fast_shadow_detection.py
 
 python3: run main_fast_shadow_detection_p3.py
 
-# Notes: 
+### Notes: 
 
 Build folders "data_cache" and "prediction_output_v1" for data training/testing output files, and output prediction result files.
 
@@ -51,7 +51,7 @@ Likewise for testing images…
 
 The Mask and Shadow Prior files should have 1 dimension, and Mask files also should be binary.
 
-# Using GPU:
+### Using GPU:
 
 Content in ~/.theanorc:
 
