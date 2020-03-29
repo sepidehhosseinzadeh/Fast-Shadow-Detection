@@ -6,11 +6,9 @@ This code is for the paper: S Hosseinzadeh, etc. "Fast Shadow Detection from a S
 
 ## Generating The Shadow Prior Map Images
 
-These images are used as image-level prior that are defined in line 44 of main_fast_shadow_detection.py. 
-
-Install Paired_Region_Prob_Map using README in the folder. Run Paired_Region_Prob_Map/deshadow_driver.m by MATLAB
-
-Reference paper http://dhoiem.cs.illinois.edu/publications/pami12_shadow.pdf
+* These images are used as image-level prior that are defined in line 44 of main_fast_shadow_detection.py. 
+* Install Paired_Region_Prob_Map using README in the folder. Run Paired_Region_Prob_Map/deshadow_driver.m by MATLAB
+* Reference paper http://dhoiem.cs.illinois.edu/publications/pami12_shadow.pdf
 
 ## Dependencies:
 1. nolearn
@@ -33,13 +31,11 @@ Reference paper http://dhoiem.cs.illinois.edu/publications/pami12_shadow.pdf
 * TrainImgeFolder: Training Images
 * TrainMaskFolder: Training Masks (Ground Truth)
 * TrainFCNFolder: Shadow Prior Map Images
-
-Likewise for testing images…
-
-The Mask and Shadow Prior files should have 1 dimension, and Mask files also should be binary.
+- Likewise for testing images…
+- The Mask and Shadow Prior files should have 1 dimension, and Mask files also should be binary.
 
 ### Using GPU:
-
+```
 Content in ~/.theanorc:
 
 [global]
@@ -49,3 +45,4 @@ floatX = float32
 [nvcc]
 
 fastmath = True
+```
