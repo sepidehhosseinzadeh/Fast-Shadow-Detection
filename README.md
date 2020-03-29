@@ -35,14 +35,10 @@ This code is for the paper: S Hosseinzadeh, etc. "Fast Shadow Detection from a S
 - The Mask and Shadow Prior files should have 1 dimension, and Mask files also should be binary.
 
 ### Using GPU:
+Build a file in your home ~/.theanorc with a content of:
 ```
-Content in ~/.theanorc:
-
 [global]
-
 floatX = float32
-
 [nvcc]
-
 fastmath = True
 ```
